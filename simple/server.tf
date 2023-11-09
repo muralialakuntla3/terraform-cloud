@@ -7,9 +7,6 @@ resource "aws_instance" "test-ec2" {
   vpc_security_group_ids = [aws_security_group.lms-sg.id]
 #  user_data = file("install_ansible.sh")
   private_ip = "10.0.1.10"
-  associate_public_ip_address = true
-  
-
   tags = {
     Name = "test-ec2"
   }
