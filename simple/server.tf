@@ -4,7 +4,7 @@ resource "aws_instance" "test-ec2" {
   instance_type = "t2.micro"
   subnet_id = aws_subnet.lms-pub-sn.id
   key_name = "murali"
-  vpc_security_group_ids = [aws_security_group.allow_ecomm.id]
+  vpc_security_group_ids = [aws_security_group.lms-sg.id]
 #  user_data = file("install_ansible.sh")
   private_ip = "10.0.1.10"
   associate_public_ip_address = true
