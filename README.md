@@ -37,6 +37,27 @@
     terraform working direstory: simple (we created in git repo)
     vcs triggers: choose according to requirement
     ** create workspace **
+## Goto your workspace : terraform-cloud
+    left side of the screen select: variables
+    ** create access keys and secret keys in aws **
+    add keys in terraform cloud as environment variables
+        AWS_ACCESS_KEY_ID: XXXXXX
+        AWS_SECRET_ACCESS_KEY: XXXXXXXX
+## Goto github repo
+    write terraform script to launch vpc
+    write terraform script to launch server
+    declare variables in variable.tf file
+    add variable values in terraform cloud
+## goto terraform cloud for implementing configuration
+    goto your workspace: terraform-cloud
+    click on : + NEW RUN
+    choose : terraform plan/applay (standared)
+    ** for destroying resources **
+    goto settings
+    select: destruction and deletion
+    select: Queue destroy plan
+    
+
 
 
 
