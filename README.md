@@ -23,6 +23,23 @@
 ##### click on: connect and continue
 #### Authorize in github pop page
 #### set up ssh keypair ----- skip for now
+## come to: Create new workspace
+### 1. choose type 
+    version control flow
+### 2. Connect to vcs 
+    -> github
+### 3. Chosse repository 
+    -> previously created one in github: muralialakuntla3/terraform-cloud
+### 4. Configure settings
+    workspace name: terraform-cloud
+    project: default project
+    ** advanced Options **
+    terraform working direstory: simple (we created in git repo)
+    vcs triggers: choose according to requirement
+    ** create workspace **
+
+
+
 
 
   
